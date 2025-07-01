@@ -3,52 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Juguetelandia</title>
-    <link rel="stylesheet" href="./_css/style_index.css">
+  <title>SmartPlay - Inicio</title>
+  <link rel="stylesheet" href="./_css/style_index.css" />
 </head>
 <body>
 
-  <header>
-    <h1>Juguetelandia</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Juguetes Infantiles</a></li>
-        <li><a href="#">Educativos</a></li>
-        <li><a href="#">Electrónicos</a></li>
-        <li><a href="#">Ofertas</a></li>
-      </ul>
-    </nav>
-    <div class="search-box">
-      <form action="#" method="get">
-        <input type="text" placeholder="Buscar juguetes..." name="q" />
-        <button type="submit">Buscar</button>
-      </form>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">SmartPlay</div>
+      </div>
     </div>
   </header>
 
-  <section class="carousel">
-    <input type="radio" name="radio-btn" id="radio1" checked />
-    <input type="radio" name="radio-btn" id="radio2" />
-    <input type="radio" name="radio-btn" id="radio3" />
-
-    <div class="slides first">
-      <div class="slide">
-        <img src="./_img/trans_one.png" alt="Juguete 1">
-      </div>
-      <div class="slide">
-        <img src="./_img/cosina.webp" alt="Juguete 2">
-      </div>
-      <div class="slide">
-        <img src="./_img/figuras.webp" alt="Juguete 3">
-      </div>
-    </div>
-
-    <div class="navigation-manual">
-      <label for="radio1" class="manual-btn"></label>
-      <label for="radio2" class="manual-btn"></label>
-      <label for="radio3" class="manual-btn"></label>
+  <section class="carousel-section">
+    <div class="carousel-container">
+      <div class="carousel-slide active"><img src="./_img/casa_barbie.jpg" alt="Barbie" style="width: 750px;"></div>
+      <div class="carousel-slide"><img src="./_img/trans_one.png" alt="Transformers" style="width: 750px;"></div>
+      <div class="carousel-slide"><img src="./_img/casa_up.jpg" alt="Casa UP" style="width: 750px;"></div>
     </div>
   </section>
+
+  <section class="products-section">
+    <div class="container">
+      <h2 class="section-title">Explora por Categorías</h2>
+      <div class="products-small-grid">
+        <article class="small-product-card"><div class="small-product-content">Muñecas</div></article>
+        <article class="small-product-card"><div class="small-product-content">Vehículos</div></article>
+        <article class="small-product-card"><div class="small-product-content">Juegos de Construcción</div></article>
+        <article class="small-product-card"><div class="small-product-content">Juegos de Mesa</div></article>
+        <article class="small-product-card"><div class="small-product-content">Tecnología</div></article>
+        <article class="small-product-card"><div class="small-product-content">Peluches</div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="products-section">
+    <div class="container" style="text-align: center; margin-top: 2rem;">
+      <a href="./_html/productos.html" class="btn btn-primary">Ver Todos los Productos</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 SmartPlay. Todos los derechos reservados.</p>
+    </div>
+  </footer>
 
 </body>
 </html>
